@@ -1,23 +1,12 @@
 # Object files
-*.o
+*.[aod]
 *.ko
 *.obj
-*.elf
+*.mod.*
 
 # Libraries
 *.lib
 *.a
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+modules.order
+Module.symvers
